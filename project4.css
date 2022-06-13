@@ -1,0 +1,94 @@
+/*@font-face {
+    font-family: "Hidayatullah DEMO";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Hidayatullah DEMO"),
+    url("../fonts/HidayatullahDemo.ttf") format("ttf");
+  }*/
+
+nav {background-color: #373333; color: #f2f2f2; display: block; font-size: 1.5em;
+    letter-spacing: 0.1em; font-weight: bold; text-align: center;
+    border-radius: 40px; 
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;}
+nav ul {list-style-type: none; 
+       margin: 0;}
+nav li {display: inline-block; 
+       padding: 0.5em;}
+nav a {text-decoration: none;
+      display: block;}
+nav ul ul {position: absolute;
+          background-color: #373333;
+          border-radius: 40px;
+          padding: 0;
+          text-align: left;
+          display: none;}
+nav ul ul li {display: block; width: 8em; padding-left: 1em;
+             margin-left: 0;}                       
+nav li:hover ul {display: block;}
+nav a:link {color: #f2f2f2;}
+nav a:visited {color: #b18cd4;}
+nav a:hover {color: #d6a9fb;}
+
+a:link {color: #f2f2f2;}
+a:visited {color: #b18cd4;}
+a:hover {color: #d6a9fb;}
+
+/*h2 {font-family: "Hidayatullah DEMO"; font-size: 2.5em;}*/
+
+#title {background-image: url(../images/jordantitle.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 350px; height: 100px;
+    margin: 0 auto;}
+
+#div1 {background-image: url(../images/jordan1.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 720px; height: 405px;
+        margin: 0 auto;
+        border-radius: 40px;}   
+
+body {background-image: url(../images/jordanpurple.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    color: #f2f2f2;
+    font-family: Palatino, serif;
+    line-height: 1.6;}
+  
+#jolocimg {width: 300px; height: 170px; border-radius: 40px;}
+
+#petraimg {width: 480px; height: 224px; border-radius: 40px; transition: width 1s, height 1s;}
+#petraimg:hover {width: 720px; height: 336px;}
+#diningimg {width: 600px; height: 250px; border-radius: 40px;}
+
+.deadseapics {width: 500px; height: 300px; margin: 0 auto; border-radius: 40px;}
+.wadirumpics {width: 500px; height: 300px; margin: 0 auto; border-radius: 40px;}
+
+
+#wrapper {width: 960px;
+    margin-left: auto;
+    margin-right: auto; 
+    background: rgba(20,19,24,.6);} 
+
+#button {background-color: #f2f2f2; color: #b18cd4;
+        border: 3px ridge #1e1e1e; padding: 1em; font-weight: bold;
+        box-shadow: 3px 3px 3px #1f1f1f; border-radius: 30px;
+        margin-left: 50px;}
+#button:hover {background-color: #b18cd4; color: #f2f2f2;}
+p {text-align: left; padding: 20px;}
+
+#p1, #p2, #p3, #p4, #p5, #p6 {display: none;}
+
+#location {width: 174px; height: 51px;}
+#history {width: 182; height: 61;}
+#climate {width: 177px; height: 51px;}
+#deadsea {width: 214px; height: 61px;}
+#petra {width: 140px; height: 76px;}
+#wadirum {width: 201px; height: 61px;}
+#hashem {width: 400px; height: 61px;}
+#sufra {width: 116px; height: 61px;}
+#nabteh {width: 370px; height: 61px;}
